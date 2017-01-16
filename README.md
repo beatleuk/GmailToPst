@@ -1,7 +1,9 @@
 # GmailToPst
 A windows application to download all G Suite email to a pst file.
 
-Download the exe from the repository
+Obtain a copy of the GmailToPST.zip file.
+Unzip to a directory.
+Open a command line window and navigate to that directory.
 
 Perform the following steps before running:
 
