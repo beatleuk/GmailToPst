@@ -31,8 +31,8 @@ Your new public/private key pair is generated and downloaded to your machine; it
 15. Click on Manage API client access
 16. On the Manage API client access page put the client ID from point 14 in the Client Name field and put at least https://www.googleapis.com/auth/gmail.readonly in the API scopes field and click Authorize
 
-When you run the program for the first time you need to specify the service account email address that can be obtained after step 9 above, it will be in the form of <guid>-compute@developer.gserviceaccount.com
+When you run the program for the first time you need to specify the service account email address that can be obtained after step 9 above, it will be in the form of (guid)-compute@developer.gserviceaccount.com
 
-17. Run the program with the following arguments GmailToPst.exe -e user@domain.com -s <guid>-compute@developer.gserviceaccount.com
+17. Run the program with the following arguments GmailToPst.exe -e user@domain.com -s (guid)-compute@developer.gserviceaccount.com
 
 All subsequent runs will only need the -e user's email argument.
