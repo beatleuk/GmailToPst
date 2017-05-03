@@ -12,13 +12,13 @@ Perform the following steps before running:
 4. When project is created and API enabled click "Go to credentials".
 5. In step 1 of the Add credentials to your project page click the service Account hyperlink to skip the Credentials wizard
 6. Click the Create Service Account button
-   a. Enter a service account name e.g. gmailtopst
-   b. Under the role drop down choose Project -> Owner
-   c. Check the Furnish a new private key check box
-      i. Choose the P12 Key type
-   d. Check the Enable G Suite Domain-wide Delegation check box
-      1. Enter a product name in the Product name for the consent screen field e.g. Gmail to PST file exporter.
-   e. Click Create
+   1. Enter a service account name e.g. gmailtopst
+   2. Under the role drop down choose Project -> Owner
+   3. Check the Furnish a new private key check box
+      * Choose the P12 Key type
+   4. Check the Enable G Suite Domain-wide Delegation check box
+      * Enter a product name in the Product name for the consent screen field e.g. Gmail to PST file exporter.
+   5. Click Create
 7. The Save as dialog window will open, navigate to the same directory as the extracted GmailToPst.exe and click Save
 Your new public/private key pair is generated and downloaded to your machine; it serves as the only copy of this key. You are responsible for storing it secure.
 8. The service account has now been created, click Close
